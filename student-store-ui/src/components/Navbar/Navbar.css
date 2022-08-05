@@ -1,0 +1,43 @@
+/*    main <nav> tag    */
+.navbar {
+    position: fixed;
+    display: flex;   flex-direction: row;   justify-content: space-between;   align-items: center;
+    width: 100%;   z-index: 5;   padding-top: 10px;   padding-bottom: 10px;
+    background-color: black;
+    border-bottom: 1px solid rgb(222, 215, 21);
+    box-shadow: 2px 2px 9.5px rgb(242, 138, 12);
+}
+
+/*    <div> containing image    */
+.nav-image {
+    width: 25%;
+}
+
+/*    <img> tag    */
+.nav-hero-img {
+    width: 20%;   height: 20%;
+    margin-left: 30px;
+}
+
+/*    <div> containing nav links    */
+.navigation {
+    padding: 5px;   padding-right: 55px;
+}
+
+/*    <li> tag    */
+li {
+    display: inline;
+    margin-right: 75px;
+    text-align: center;   font-size: 18px;   font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+/*    <a> tag inside <li>    */
+a {
+    color: white;
+    text-decoration: none;   text-transform: uppercase;   letter-spacing: 5px;
+}
+
+a:hover {
+    color: rgb(242, 138, 12);  text-shadow: 1px 2px 5px white;
+}

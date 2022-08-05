@@ -1,5 +1,4 @@
 import "./Home.css"
-
 import * as React from "react"
 
 import About from "../About/About"
@@ -11,11 +10,10 @@ import ProductGrid from "../Product/Grid/ProductGrid"
 import SearchBar from "../Search/Search"
 
 
-export default function Home(props) {
+export default function Home (props) {
     return (
       <div className = "home">
         <Hero/>
-        <About/>
         <SearchBar
             setSearchInput = {props.setSearchInput} 
             handleOnSearchChange = {props.handleOnSearchChange}
@@ -27,6 +25,7 @@ export default function Home(props) {
             handleAddItemToCart = {props.handleAddItemToCart} 
             handleRemoveItemFromCart = {props.handleRemoveItemFromCart}
         />
+        <About/>
         <Contact/>
         <Footer/>
       </div>

@@ -2,18 +2,17 @@ import "./Hero.css"
 import * as React from "react"
 
 
-export default function Hero() {
+export default function Hero () {
+
   return (
     <div className = "hero">
-
-      <div className = "intro">
-        <h1> Welcome to the Student Store </h1>
+      <div className = "hero-header">
+        <h1> Student Store </h1>
       </div>
 
-      <div className = "image">
-        <img className = "hero-img" src = "/assets/transparent_moon.png"/>
+      <div className = "hero-image">
+        <img className = "image" src = "/assets/transparent_moon.png"/>
       </div>
-
     </div>
   )
 }

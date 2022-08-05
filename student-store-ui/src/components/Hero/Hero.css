@@ -1,0 +1,27 @@
+/*    main <div> tag    */
+.hero {
+    position: relative;
+    display: flex;   flex-direction: column;   justify-content: center;   align-items: center;
+}
+
+/*    <div> containing header    */
+.hero-header {
+    position: absolute;   top: 45%;
+    display: flex;   flex-direction: column;   align-items: center;
+    padding-top: -5px;   padding-bottom: -5px;
+    text-align: center;   color: rgb(242, 138, 12);   font-size: 35px;   font-family: 'Times New Roman', Times, serif;
+    border-top: 1px solid white;   border-bottom: 1px solid white;   border-radius: 100px;
+    font-style: italic;   text-shadow: 4px 1px 3px black, 4px 2px 8px rgb(222, 215, 21), 5px 5px 15px white;   letter-spacing: 15px;
+    cursor: default;
+}
+
+/*    <div> containing image    */
+.hero-image {
+    display: flex;   flex-direction: column;   align-items: center;
+}
+
+/*    <img> tag    */
+.image {
+    max-width: 25%;   height: auto;
+    margin-top: 150px;
+}
