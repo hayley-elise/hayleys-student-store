@@ -19,19 +19,19 @@
 .search-input {
     height: 40px;
     margin-right: 25px;
-    background-color: rgb(3, 3, 47);
-    text-align: center;   color: white;   font-size: 20px;   font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(2, 3, 23);
+    text-align: center;   color: ivory;   font-size: 20px;   font-family: 'Times New Roman', Times, serif;
     border: 1px solid rgb(222, 215, 21);   border-radius: 30px;
 }
 
 .search-input:hover {
-    border: 2px solid rgb(242, 138, 12);
-    box-shadow: 1px 1px 4px rgb(222, 215, 21);
+    border: 1px solid rgb(242, 138, 12);
+    box-shadow: 0px 1px 5px rgb(222, 215, 21);
 }
 
 .search-input:focus {
     border: 4px double rgb(242, 138, 12);
-    box-shadow: 1px 1px 4px white;
+    box-shadow: 0px 1px 4px white;
 }
 
 ::placeholder {
@@ -42,13 +42,14 @@
 /*    search <button>    */
 .search-button {
     height: 40px;   width: 40%;
-    background-color: rgb(3, 3, 47);
+    padding-left: 15px;
+    background-color: rgb(2, 3, 23);
     text-align: center;   color: white;   font-size: 15px;   font-family: 'Times New Roman', Times, serif;
     border: 1px solid rgb(222, 215, 21);   border-radius: 30px;
     cursor: pointer;
 }
 
 .search-button:hover {
-    border: 2px solid rgb(242, 138, 12);
-    box-shadow: 1px 1px 4px rgb(222, 215, 21);
+    border: 1px solid rgb(242, 138, 12);
+    box-shadow: 0px 1px 5px rgb(222, 215, 21);
 }
